@@ -11,3 +11,8 @@ add_executable(blescan
 target_link_libraries(blescan
 	bluetooth
 )
+
+install (PROGRAMS
+        ${PROJECT_BINARY_DIR}/blescan
+        DESTINATION bin
+)
